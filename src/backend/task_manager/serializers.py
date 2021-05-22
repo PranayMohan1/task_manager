@@ -1,9 +1,7 @@
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 from .models import Projects, Tasks, SubTasks, AssignProject
-from ..accounts.models import User
 from ..accounts.serializers import UserSerializer
-from ..base.constants import USER_SPAM_COUNT_PEAK
 
 
 class ProjectsSerializer(ModelSerializer):

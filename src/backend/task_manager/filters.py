@@ -4,7 +4,6 @@ from .models import Projects, AssignProject, Tasks, SubTasks
 
 
 class ProjectFilter(django_filters.FilterSet):
-
     class Meta:
         model = Projects
         fields = {
